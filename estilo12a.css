@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
+}
+
+div {
+    width: 50vw;
+    height: 10vh;
+    cursor: url(cursor.png), auto;
+    margin-block-end: 10vh;
+      
+}
+
+div:hover{
+
+    cursor: url("octopus.ico"), not-allowed;
+    /*cursor: url(tree.jfif), not-allowed;*//*(default)*/
+   /* cursor: url (favicon.ico), auto;*/
+
+}
+/*img:hover{
+
+    filter:blur();
+    /*filter:none*/
+    /*transform: scale(1.4);
+}*/
+.arbol{
+
+    margin-top: 10vh;
+    width: 2vmax;
+    height: 1vmax;
+    margin-left: 10%;
+    margin-right: 10%;
+    rotate: 20s;
+ 
+
+}
+
+.imag1:hover{
+    transform:rotate(-180deg);
+    transition-duration:3s;         
+}
+
+.chico{
+    margin-top: 40vh; 
+    width: 2vmax;
+    height: 1vmax;
+    margin-left: 50%;
+    margin-right: 10%;
+    transform: skew(30deg, 20deg) rotate(0.3turn);
+    outline-color: rgb(219, 13, 13);
+   
+}
+
+
+.imagen3{
+
+    margin-top: 40vh; 
+    width: 30vw;
+    height: 30vh;
+    margin-left: 50%;
+    margin-right: 10%;
+    
+
+}
+.imagen3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+img[alt]{
+    outline-offset: 5px;
+    outline: 5px solid rgb(26, 20, 78);
+}
+
+ing [src$=".webp"]{
+    border: 1px solid blue;
+}
+
+ing [src$=".jfif"]{
+    border: 1px solid blue;
+}
